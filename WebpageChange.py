@@ -11,7 +11,7 @@ sleeptime = 60
 
 def get_hash():
     # Random integer to select user agent to avoid detection
-    randomint = random.randint(0, 7)
+    randomint = random.randint(0, 5)
 
     # User agents
     user_agents = [
