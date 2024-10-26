@@ -3,14 +3,14 @@ import requests
 import random
 import time
 
-# URL to be scraped
+# URL to be checked
 url = "https://krebsonsecurity.com/"
 
 # Time between checks in seconds
 sleeptime = 60
 
 def get_hash():
-    # Random integer to select user agent
+    # Random integer to select user agent to avoid detection
     randomint = random.randint(0, 7)
 
     # User agents
